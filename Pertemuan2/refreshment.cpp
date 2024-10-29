@@ -15,6 +15,7 @@ Rubah juga data di bawah jadi data mahasiswa masing - masing!
 
 using namespace std;
 
+// Fungsi untuk memindahkan kursor ke posisi tertentu
 void gotoxy(int x, int y) {
 	COORD coord;
 	coord.X = x;
