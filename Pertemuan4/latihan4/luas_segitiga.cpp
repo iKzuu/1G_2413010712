@@ -24,7 +24,7 @@ int main() {
 		luas = 0.5 * alas * tinggi; // hitung luas segitiga
 	
 		cout << "\nHasil Luas Segitiga = " << luas << "\n"; // menampilkan output hasil perhitungan luas segitiga
-		cout << "\n==============================";
+		cout << "\n==============================" << endl;
 		
 		cout << "Ingin melakukan penghitungan lagi? (y/n)"; 
 		cin >> loop; // nilai input dimasukkan pada variable loop
